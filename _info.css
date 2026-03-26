@@ -1,0 +1,40 @@
+.info {
+    font-family: var(--font-family);
+    padding: 80px 0;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.info__title {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 160%;
+}
+
+.info__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.info__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info__subtitle {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.info__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
