@@ -1,8 +1,13 @@
 :root {
     --Blue-gray-900: #0F172A;
+    --Bleu-gray-12: #121212;
     --Blue-gray-600: #475569;
     --Blue-gray-200: #E2E8F0;
+    --Blue-gray-100: #AAAAAA;
+    --Blue-gray-5: #5E5E5E;
+    --Red: #FF2A2A;
     --White: #FFFFFF;
+    --White-modal: #F8F8F8;
     --Blue-600: #2563EB;
     --font-family: 'Roboto', sans-serif;
     --second-family: 'Roboto-ExBold', sans-serif;

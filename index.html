@@ -8,53 +8,67 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class=""body>
+<body class="" body>
     <section class="info">
         <div class="container">
-                <span class="info__title">Информация о нас</span>
-                <ul class="info__grid">
-                    <li class="info__item">
-                        <span class="info__subtitle">8%</span>
-                        <p class="info__text">Ожидаемый рост цен на недвижимость в туристических регионах Сербии к 2025
-                            году
-                        </p>
-                    </li>
-                    <li class="info__item">
-                        <span class="info__subtitle">7%</span>
-                        <p class="info__text">Средняя доходность от сдачи недвижимости в аренду по данным локального
-                            рынка
-                        </p>
-                    </li>
-                    <li class="info__item">
-                        <span class="info__subtitle">5%</span>
-                        <p class="info__text">Прогнозируемый рост ВВП Сербии в 2025 году, по данным МВФ</p>
-                    </li>
-                    <li class="info__item">
-                        <span class="info__subtitle">4 МЛН</span>
-                        <p class="info__text">Иностранных туристов ожидается в 2025 году, согласно Министерству туризма
-                            Сербии.
-                        </p>
-                    </li>
+            <span class="info__title">Информация о нас</span>
+            <ul class="info__grid">
+                <li class="info__item">
+                    <span class="info__subtitle">8%</span>
+                    <p class="info__text">Ожидаемый рост цен на недвижимость в туристических регионах Сербии к 2025
+                        году
+                    </p>
+                </li>
+                <li class="info__item">
+                    <span class="info__subtitle">7%</span>
+                    <p class="info__text">Средняя доходность от сдачи недвижимости в аренду по данным локального
+                        рынка
+                    </p>
+                </li>
+                <li class="info__item">
+                    <span class="info__subtitle">5%</span>
+                    <p class="info__text">Прогнозируемый рост ВВП Сербии в 2025 году, по данным МВФ</p>
+                </li>
+                <li class="info__item">
+                    <span class="info__subtitle">4 МЛН</span>
+                    <p class="info__text">Иностранных туристов ожидается в 2025 году, согласно Министерству туризма
+                        Сербии.
+                    </p>
+                </li>
 
-                    <li class="info__item">
-                        <span class="info__subtitle">100+ МЛН €</span>
-                        <p class="info__text">Планируемые инвестиции в развитие курортной инфраструктуры Сербии до 2025
-                            года
-                        </p>
-                    </li>
-                    <li class="info__item">
-                        <span class="info__subtitle">Круглый год</span>
-                        <p class="info__text">Туристический сезон: горнолыжные курорты зимой, озёра и трекинг летом. Это
-                            отличный способ нажиться на новых клиентах</p>
-                    </li>
-                </ul>
-                <button class="btn">Открыть окно</button>
-            </div>
+                <li class="info__item">
+                    <span class="info__subtitle">100+ МЛН €</span>
+                    <p class="info__text">Планируемые инвестиции в развитие курортной инфраструктуры Сербии до 2025
+                        года
+                    </p>
+                </li>
+                <li class="info__item">
+                    <span class="info__subtitle">Круглый год</span>
+                    <p class="info__text">Туристический сезон: горнолыжные курорты зимой, озёра и трекинг летом. Это
+                        отличный способ нажиться на новых клиентах</p>
+                </li>
+            </ul>
+            <button class="btn">Открыть окно</button>
+        </div>
     </section>
 
-    <div class="modal">
-        <h3 class="modal__title"></h3>
-        <p class="modal__text"></p>
+    <div class="modal--active">
+        <div class="modal--top">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 9.36047C0 4.19082 4.19082 0 9.36047 0H25.6395C30.8092 0 35 4.19082 35 9.36047V25.6395C35 30.8092 30.8092 35 25.6395 35H9.36047C4.19082 35 0 30.8092 0 25.6395V9.36047ZM23.5027 13.8983C24.1658 13.2353 24.1658 12.1603 23.5027 11.4973C22.8397 10.8342 21.7647 10.8342 21.1016 11.4973L17.5 15.0989L13.8984 11.4974C13.2353 10.8343 12.1603 10.8343 11.4973 11.4974C10.8342 12.1604 10.8342 13.2354 11.4973 13.8984L15.0989 17.5L11.4973 21.1016C10.8342 21.7646 10.8342 22.8396 11.4973 23.5026C12.1603 24.1657 13.2353 24.1657 13.8984 23.5026L17.5 19.9011L21.1016 23.5027C21.7647 24.1658 22.8397 24.1658 23.5027 23.5027C24.1658 22.8397 24.1658 21.7647 23.5027 21.1017L19.901 17.5L23.5027 13.8983Z"
+                    fill="#FF2A2A" />
+            </svg>
+            <span class="modal__title">Ошибка при транзакции</span>
+        </div>
+        <div class="modal--center">
+        <p class="modal__text-center">На кошельке недостаточно средств для выполнения транзакции. Попробуйте еще раз или
+            обратитесь в службу поддержки для получения дополнительной помощи.
+        </p>
+        </div>
+        <div class="modal--bottom">
+            <p class="modal__text-bottom">Данное окно можно закрыть, нажав на крестик</p>
+        </div>
     </div>
 </body>
 
