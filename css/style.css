@@ -1,0 +1,13 @@
+@import url(/css/basic/_reset.css);
+@import url(/css/basic/_fonts.css);
+@import url(/css/basic/_global.css);
+@import url(/css/basic/_vars.css);
+
+@import url(/css/components/_btn.css);
+
+@import url(/css/home/_modal.css);
+@import url(/css/home/_info.css);
+
+* {
+  box-sizing: border-box;
+}
